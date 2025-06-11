@@ -28,7 +28,7 @@ jobs:
 
 workflows:
   version: 2
-  django:
+  terraform:
     jobs:
       - build
       - test
